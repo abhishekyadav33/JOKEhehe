@@ -4,51 +4,59 @@ body {
     place-items: center;
     /* align-items: center; */
     /* justify-content: center; */
-    background-color:  #aa96da;
+    background-color: #aa96da;
 }
 
 .container {
     margin: auto;
     margin-top: 100px;
-    padding: 90px 70px;
-    height: 50%;
+    /* padding: 90px 70px; */
+    height: 80%;
+    width: 50%;
     color: #8a6626;
     border: 3px solid black;
     background-color: #c5fad5;
     border-radius: 50px;
+    /* display: grid;
+    place-items: center; */
 }
 
 h2 {
     text-align: center;
-    font-size: 60px;
-    padding: 20px 30px;
+    font-size: 35px;
+    padding: 0px 0px;
     margin: 5px 10px;
     color: #8a6626;
-    text-shadow: 
-    1px 0px 1px #ccc, 0px 1px 1px #eee, 
-    2px 1px 1px #ccc, 1px 2px 1px #eee,
-    3px 2px 1px #ccc, 2px 3px 1px #eee,
-    4px 3px 1px #ccc, 3px 4px 1px #eee,
-    5px 4px 1px #ccc, 4px 5px 1px #eee,
-    6px 5px 1px #ccc, 5px 6px 1px #eee,
-    7px 6px 1px #ccc;
+    text-shadow:
+        1px 0px 1px #ccc, 0px 1px 1px #eee,
+        2px 1px 1px #ccc, 1px 2px 1px #eee,
+        3px 2px 1px #ccc, 2px 3px 1px #eee,
+        4px 3px 1px #ccc, 3px 4px 1px #eee,
+        5px 4px 1px #ccc, 4px 5px 1px #eee,
+        6px 5px 1px #ccc, 5px 6px 1px #eee,
+        7px 6px 1px #ccc;
 }
 
 #joke {
-    height: 20%;
+    height: 30%;
     text-align: center;
-    font-size: 30px;
-    padding: 40px 0px;
-    margin: 14px 0px;
+    font-size: 20px;
+    /* padding: 40px 0px; */
+    /* margin: 14px 0px; */
     font-weight: bold;
+    padding-top: 15px;
 }
-#jokeBtn{
-    padding: 6px 25px;
-    font-size: 16px;
-    margin: 0px 570px;
+
+#jokeBtn {
+    font-size: 15px;
+    padding: 4px 9px;
+    /* margin: 0px px; */
     background-color: #ffffd2;
     color: #5e32c7;
     cursor: pointer;
     border-radius: 9px;
     font-weight: bold;
+    display: grid;
+    place-items: center;
+    margin: auto;
 }
